@@ -16,5 +16,7 @@ public class Main {
 
         Dog dog = new Dog(6,"Bob");
         System.out.println("Возраст собаки: "+dog.getAge()+". Имя собаки: " + dog.getName());
+        Cat cat = new Cat(3,"Garfield");
+        System.out.println("Имя кота: "+cat.getName()+". Возраст кота: "+ cat.getAge());
     }
 }
