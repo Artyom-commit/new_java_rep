@@ -14,6 +14,7 @@ public class Main {
 
         System.out.println("Вы напечатали: " + message);
 
-        Dog dog = new Dog();
+        Dog dog = new Dog(6,"Bob");
+        System.out.println("Возраст собаки: "+dog.getAge()+". Имя собаки: " + dog.getName());
     }
 }
