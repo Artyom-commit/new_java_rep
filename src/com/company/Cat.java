@@ -4,7 +4,7 @@ public class Cat {
     private String name;
     private int age;
 
-    public Cat(){
+    public Cat(){ //Конструктор класса Кот
 
     }
     public Cat(int age){
