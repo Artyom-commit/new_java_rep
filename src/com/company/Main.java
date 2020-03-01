@@ -13,5 +13,7 @@ public class Main {
         String message = sc.nextLine();
 
         System.out.println("Вы напечатали: " + message);
+
+        Dog dog = new Dog();
     }
 }
