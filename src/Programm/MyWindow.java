@@ -35,6 +35,7 @@ public class MyWindow extends JFrame {
 
                 sw.setBounds(50,50,500,500);
                 sw.setVisible(true);
+                setDefaultCloseOperation(EXIT_ON_CLOSE);
 
             }
         });
